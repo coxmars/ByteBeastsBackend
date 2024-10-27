@@ -10,6 +10,7 @@ pub struct Achievement {
     pub achievement_id: u64, // Unique ID for the achievement
     pub achievement_type: AchievementType, // Type of achievement (e.g., FirstWin, TenWins)
     pub rarity: AchievementRarity, // Rarity of the achievement
+    pub name: felt252, // Name of the achievement
     pub description: ByteArray, // Detailed description of the achievement
     pub is_hidden: bool, // Whether the achievement is hidden by default
     pub is_unlocked: bool, // Whether the achievement has been unlocked by the player
